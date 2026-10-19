@@ -1,31 +1,4 @@
-# Python bytecode & cache
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.pytest_cache/
-
-# Virtual Environment
 .venv/
-venv/
-ENV/
-env/
-
-# Datasets
-data/MNIST/
-data/*.gz
-data/*.pt
-data/*.tar
-
-# Checkpoints and Large binaries
-outputs/checkpoints/*.pt
-outputs/checkpoints/*.pth
-
-# IDE and OS files
-.vscode/
-.idea/
-.DS_Store
-Thumbs.db
-
-# Streamlit local state
-.streamlit/
+__pycache__/
+.pytest_cache/
+.env
